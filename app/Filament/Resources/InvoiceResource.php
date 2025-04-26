@@ -36,6 +36,11 @@ class InvoiceResource extends Resource
         return static::getModel()::count() > 0 ? 'success' : 'gray';
     }
 
+    public static function shouldRegisterNavigation(): bool
+    {
+        return false; // Tidak menampilkan menu navigasi untuk resource ini
+    }
+
     public static function form(Form $form): Form
     {
         return $form
