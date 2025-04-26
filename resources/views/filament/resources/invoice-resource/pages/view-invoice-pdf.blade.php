@@ -30,7 +30,7 @@
         position: relative;
         width: 100%;
         height: 110px;
-        padding: 0 50px;
+        padding: 0;
         display: flex;
         align-items: center;
         box-sizing: border-box;
@@ -43,25 +43,22 @@
         max-height: 60px;
         }
         .tm_shape_bg {
-        position: absolute;
-        top: 0;
-        right: 0;
-        height: 100%;
-        width: 50%;
-        background-color: #063474;
-        transform: skewX(35deg);
-        transform-origin: top right;
-        z-index: 1;
-        display: flex;
-        align-items: center;
-        justify-content: end;
+            position: absolute;
+            height: 50%;
+            background: #063474;
+            width: 70%;
+            transform: skewX(35deg);
+            top: 0px;
+            right: -100px;
+            overflow: hidden;
         }
         .tm_shape_bg .tm_invoice_title {
+        margin-top: 10px;
         transform: skewX(-35deg);
         color: white;
         font-size: 28px;
         font-weight: bold;
-        text-align: end;
+        text-align: center;
         text-transform: uppercase;
         letter-spacing: 2px;
         }
@@ -111,10 +108,16 @@
             width: 100%;
         }
 
-        .invoice-to, .pay-to {
+        .invoice-to,.pay-to{
             display: table-cell;
             width: 50%;
             vertical-align: top;
+
+        }
+
+        .pay-to{
+            text-align: right;
+            float: right;
         }
 
         .items-table {
@@ -158,6 +161,8 @@
         }
 
         .signature {
+            float: right;
+
             text-align: center;
             margin-top: 50px;
         }
@@ -210,7 +215,7 @@
             <p>{{ $record->customer->name }}</p>
             <p>{{ $record->customer->email }}</p>
         </div>
-        <div class="pay-to">
+        <div class="pay-to" class="text-align: right;">
             <p><strong>Pay To</strong></p>
             <p>Acenify</p>
             <p>Nerogtog, Kec. Cipondoh, Kota Tangerang, Banten 15146</p>

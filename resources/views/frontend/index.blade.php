@@ -87,9 +87,9 @@
               <li data-target="#carousel-light2" data-slide-to="2"></li>
             </ol>
             <div role="listbox" class="carousel-inner">
-              <div class="item active"><img src="{{asset('assets/img/backgrounds/bg-template-help4.png')}}" alt="Portofolio Web Desain" class="img-responsive center-block"></div>
-              <div class="item"><img src="{{asset('assets/img/backgrounds/bg-template-e-commerce3 .png')}}" alt="Tampilan Website Klien" class="img-responsive center-block"></div>
-              <div class="item"><img src="{{asset('assets/img/backgrounds/bg-template-porto1.png')}}" alt="Contoh Landing Page" class="img-responsive center-block"></div>
+              <div class="item active"><img src="{{asset('assets/img/templates/template-landing-12.png')}}" alt="Portofolio Web Desain" class="img-responsive center-block"></div>
+              <div class="item"><img src="{{asset('assets/img/templates/template-landing-11.png')}}" alt="Tampilan Website Klien" class="img-responsive center-block"></div>
+              <div class="item"><img src="{{asset('assets/img/templates/template-landing-17.png')}}" alt="Contoh Landing Page" class="img-responsive center-block"></div>
             </div>
           </div>
         </div>
@@ -154,7 +154,8 @@
         <div class="col-lg-5">
           <h3>Butuh Bantuan untuk Memulai?</h3>
           <p>Acenify siap membantu Anda membuat website yang tidak hanya tampil memukau di semua perangkat, tetapi juga cepat, aman, dan siap bersaing di mesin pencari. Tim kami selalu siap menjawab pertanyaan dan memberikan solusi terbaik untuk kebutuhan digital Anda.</p>
-          <a href="#contact" class="btn btn-dark">Konsultasi Gratis</a>
+          <a href="https://wa.me/6282121212093?text=Halo!%20%F0%9F%91%8B%0ASaya%20ingin%20konsultasi%20tentang%20jasa%20pembuatan%20website%20di%20Acenify%20Web%20Studio.%0AMohon%20bantuannya%20untuk%20informasi%20paket%20dan%20pilihan%20yang%20sesuai%20dengan%20kebutuhan%20saya.%20%F0%9F%9A%80
+" class="btn btn-dark">Konsultasi Gratis</a>
         </div>
         <div class="col-lg-6 col-lg-offset-1">
           <div id="carousel-light" class="carousel slide carousel-fade">
@@ -518,11 +519,12 @@
               <li class="list-group-item">Responsive Design</li>
               <li class="list-group-item">SSL</li>
               <li class="list-group-item">Pilihan Design Unlimited</li>
-              <li class="list-group-item">Access Cpanel</li>
               <li class="list-group-item">SEO Friendly</li>
               <li class="list-group-item">
                 <span class="h5 d-block mb-2">Rp 1.999.000</span>
-                <a href="#contact" class="btn btn-gray">Pesan Sekarang</a>
+                <a href="https://wa.me/622121212093?text=Halo!%20%F0%9F%91%8B%0ASaya%20tertarik%20dengan%20Paket%20Landing%20Page%20di%20Acenify%20Web%20Studio.%0ABoleh%20dijelaskan%20lebih%20lanjut%20mengenai%20fitur%20dan%20harganya%3F%20%F0%9F%9A%80
+
+" class="btn btn-gray">Pesan Sekarang</a>
               </li>
             </ul>
           </div>
@@ -544,7 +546,8 @@
                 <li class="list-group-item">SEO Friendly</li>
                 <li class="list-group-item">
                 <span class="h5 d-block mb-2">Rp 5.500.000</span>
-                <a href="#contact" class="btn btn-gray">Pesan Sekarang</a>
+                <a href="https://wa.me/6282121212093?text=Halo!%20%F0%9F%91%8B%0ASaya%20berminat%20dengan%20Paket%20E-Commerce%20dari%20Acenify%20Web%20Studio.%0ABisa%20minta%20info%20lebih%20lengkap%20tentang%20fitur%20toko%20online%20dan%20biayanya%3F%20%F0%9F%9B%92
+" class="btn btn-gray">Pesan Sekarang</a>
               </li>
             </ul>
           </div>
@@ -566,7 +569,8 @@
               <li class="list-group-item">Life time support & Maintenance</li>
               <li class="list-group-item">
                 <span class="h5 d-block mb-2">Hubungi Kami</span>
-                <a href="#contact" class="btn btn-dark-border"><i class="fa fa-phone"></i> Konsultasi</a>
+                <a href="https://wa.me/6282121212093?text=Halo!%20%F0%9F%91%8B%0ASaya%20ingin%20konsultasi%20tentang%20Paket%20Custom%20Website%20di%20Acenify%20Web%20Studio.%0AApakah%20bisa%20disesuaikan%20dengan%20kebutuhan%20spesifik%20bisnis%20saya%3F%20%F0%9F%8E%A8
+" class="btn btn-dark-border"><i class="fa fa-phone"></i> Konsultasi</a>
               </li>
             </ul>
           </div>
@@ -678,7 +682,7 @@
         </div>
         <div class="col-md-3">
           <h3>Kontak</h3>
-          <p><i class="fa fa-phone fa-fw"></i> +62 812-3456-7890<br> <i class="fa fa-envelope fa-fw"></i> acenify.official@gmail.com<br> <i class="fa fa-map-marker fa-fw"></i> Tangerang, Indonesia</p>
+          <p><i class="fa fa-phone fa-fw"></i> +62 821-2121-2093<br> <i class="fa fa-envelope fa-fw"></i> acenify.official@gmail.com<br> <i class="fa fa-map-marker fa-fw"></i> Tangerang, Indonesia</p>
         </div>
       </div>
       <hr>

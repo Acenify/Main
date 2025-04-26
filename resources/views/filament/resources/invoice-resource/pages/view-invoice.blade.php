@@ -52,26 +52,29 @@
                         href="{{ route('invoice.download', ['invoice' => $record->id]) }}"
                         icon="heroicon-o-arrow-down-on-square"
                         class="bg-green-500 hover:bg-green-600 text-white"
+                        style="margin: 0 10px; color:green !important;"
                     >
                         Download PDF
                     </x-filament::link>
 
                     <!-- Tombol Delete -->
-                    <x-filament::button
+                    <x-filament::link
                         onclick="confirm('Apakah Anda yakin ingin menghapus invoice ini?') || event.stopImmediatePropagation()"
                         wire:click="deleteInvoice"
                         icon="heroicon-o-trash"
-                        class="bg-red-500 hover:bg-red-600 text-white">
+                        class="bg-red-500 hover:bg-red-600 text-white"
+                        style="margin: 0 10px; color:red !important;">
                         Delete
-                    </x-filament::button>
+                    </x-filament::link>
 
                     <!-- Tombol Update -->
-                    <x-filament::button
+                    <x-filament::link
                         onclick="window.location.href='{{ route('filament.admin.resources.invoices.edit', $record->id) }}'"
                         icon="heroicon-o-pencil-square"
-                        class="bg-blue-500 hover:bg-blue-600 text-white">
+                        class="bg-blue-500 hover:bg-blue-600 text-white"
+                        style="margin: 0 10px;">
                         Update
-                    </x-filament::button>
+                    </x-filament::link>
                 </div>
             </div>
         </div>
