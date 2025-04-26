@@ -27,6 +27,16 @@ class HostingResource extends Resource
 
     protected static?string $navigationGroup = 'Data Customer';
 
+    public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
+    }
+
+    public static function getNavigationBadgeColor():?string
+    {
+        return static::getModel()::count() > 0 ? 'success' : 'gray';
+    }
+
     public static function form(Form $form): Form
     {
         return $form

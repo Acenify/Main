@@ -48,12 +48,13 @@
             <div class="card-body">
                 <div class="flex justify-center bg-white dark:bg-gray-800 rounded p-2">
                     <!-- Tombol Download -->
-                    <x-filament::button
-                        wire:click="downloadInvoice"
+                    <x-filament::link
+                        href="{{ route('invoice.download', ['invoice' => $record->id]) }}"
                         icon="heroicon-o-arrow-down-on-square"
-                        class="bg-green-500 hover:bg-green-600 text-white">
+                        class="bg-green-500 hover:bg-green-600 text-white"
+                    >
                         Download PDF
-                    </x-filament::button>
+                    </x-filament::link>
 
                     <!-- Tombol Delete -->
                     <x-filament::button

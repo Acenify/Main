@@ -14,6 +14,7 @@ use Spatie\Browsershot\Browsershot;
 Route::get('/', function () {
     return view('frontend.index');
 });
+Route::get('/admin/invoices/{invoice}', [PdfController::class, '__invoice'])->name('invoice.download');
 
 // Route::get('/filament/invoice/{invoice}/download-pdf', function (Invoice $invoice) {
 //     $invoice->load('customer', 'invoiceItems.item');
